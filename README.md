@@ -8,6 +8,7 @@ STM32f103c8tx serisine göre rom sektorleri ayarlanmıştır 1kb kapasite belirt
 kayıt edilecek veri char dizisine kayıt edilir.
 
  ee_writeToRam(kayıt başlangıç adresi sıfır yazılabilir, dizi uzunluğu , char dizi);
+ 
  ee_commit(); // Ramden roma aktarır.
 
 
